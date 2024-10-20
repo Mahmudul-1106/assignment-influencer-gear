@@ -1,0 +1,231 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* shared styles */
+
+body {
+    max-width: 1440px;
+    margin: 0px auto;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #3A3A3A;
+}
+
+.button-primary {
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 24px;
+    border: 0;
+    word-spacing: 3px;
+}
+
+/* nav related style */
+
+nav {
+    margin: 50px 120px 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 35px;
+    list-style: none;
+}
+
+nav h3 {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* influencer related styles */
+.influencer {
+    margin: 50px 130px 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.influencer h2 {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.influencer p {
+    margin: 15px 0;
+}
+
+.influencer-image {
+    background-image: url(../images/Circle\ design.svg);
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+}
+
+.influencer-image img {
+    padding-top: 30px;
+}
+
+/* spsonsor related style */
+.sponsor{
+    margin: 50px 165px 0 165px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+/* collection related style */
+.collection {
+    margin: 100px 195px 0px 195px;
+}
+
+.collection-title {
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.container .card {
+    padding: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.container .card h4 {
+    margin-top: 10px;
+    color: var(--Text-Gray-900, #18191F);
+    margin-bottom: 0px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.container .card .price {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: var(--Dark-Color, rgba(0, 0, 0, 0.87));
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.container .card .rating {
+    margin: 05px 0px;
+    color: var(--gray-80, #5E6366);
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.container .card .text {
+    margin: 0;
+    color: var(--Gray-50, #787885);
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: 0.252px;
+}
+
+.collection .see {
+    margin-top: 30px;
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* featured related style */
+.featured {
+    margin: 50px 165px 100px 165px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured .featured-title {
+    margin: 0 0 0 0;
+    color: #0A0826;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.featured .featured-message {
+    max-width: 500px;
+    margin: 16px 0 16px 0;
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.featured .button-primary {
+    border-radius: 0%;
+}
+
+/* footer related style  */
+footer {
+    background-color: rgb(0, 0, 39);
+    text-align: center;
+}
+
+footer h4 {
+    margin: 0;
+    padding: 50px 0 0 0;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+footer p {
+
+    margin: 3px 0 0 0;
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+footer .icon {
+    padding: 17px 0 50px 0;
+    letter-spacing: 12px;
+}
